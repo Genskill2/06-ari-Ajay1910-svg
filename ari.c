@@ -1,6 +1,6 @@
-string ari(string s)
+ ari(s)
 {
-s=get_string("Text: ");
+string s=get_string("Text: ");
 int letterscount=0;
 int wordcount=1;
 int sentencecount=0;
