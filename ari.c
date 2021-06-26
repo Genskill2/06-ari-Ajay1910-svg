@@ -1,20 +1,20 @@
- string ari(string)
+ string ari(string s)
 {
-string s=get_string("Text: ");
+ s=get_string("Text: ");
 int letterscount=0;
 int wordcount=1;
 int sentencecount=0;
 for(int i=0;i<strlen(s);i++)
 {
-if((text[i]>='a'&&text[i]<='z')||(text[i]>='A'&&text[i]<='Z'))
+if((s[i]>='a'&&s[i]<='z')||(s[i]>='A'&&s[i]<='Z'))
  {
   letterscount++;
   }
-  else if(text[i]==' ')
+  else if(s[i]==' ')
   {
    wordcount++;
    }
-   else if(text[i]=='.'||text[i]==!||text[i]=='?')
+   else if(s[i]=='.'||s[i]==!||s[i]=='?')
    {
    sentencecount++;
    }
