@@ -1,4 +1,4 @@
- ari(s)
+ string ari(string)
 {
 string s=get_string("Text: ");
 int letterscount=0;
