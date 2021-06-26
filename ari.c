@@ -1,4 +1,4 @@
- void ari(int s)
+ void ari(const char* s)
 {
  s=get_string("Text: ");
 int letterscount=0;
