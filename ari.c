@@ -1,6 +1,6 @@
- void ari(const char* s)
+ String ari(String s)
 {
- s=get_string("Text: ");
+ s=get_String("Text: ");
 int letterscount=0;
 int wordcount=1;
 int sentencecount=0;
